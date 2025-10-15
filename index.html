@@ -66,7 +66,7 @@
                 <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#enquiry">Enquiry</a>
+                <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSc7q3TiYjIr2ymYEsr1EDnZ7MkweJoYecq4h4kIjuWKk3Ep5g/viewform?usp=sharing&ouid=114480387179070828857">Enquire now</a>
               </li>
             </ul>
 
@@ -422,48 +422,17 @@
 
   <!-- book section -->
   <section class="book_section layout_padding" id="enquiry">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Enquiry
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form_container">
-            <form id="enquiryForm" action="submit.php" method="POST">
-              <div>
-                <input type="text" class="form-control" name="name" placeholder="Your Name" required />
-              </div>
-              <div>
-                <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required />
-              </div>
-              <div>
-                <input type="email" class="form-control" name="email" placeholder="Your Email" required />
-              </div>
-              <div>
-                <input type="text" class="form-control" name="location" placeholder="Location" required />
-              </div>
-              <div>
-                <textarea class="form-control" name="productDetails" placeholder="Product Details" rows="4"
-                  style="resize: vertical;" required></textarea>
-              </div>
-              <!-- Hidden timestamp field -->
-              <input type="hidden" name="timestamp" value="">
-              <div class="btn_box">
-                <button type="submit">
-                  Enquire Now
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="map_container ">
-            <div id="googleMap"></div>
-          </div>
-        </div>
-      </div>
+    <div style="display: flex;justify-content: center;align-items: center;">
+      <button style="padding: 10px 25px;
+    background-color: #222831;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 20px;" 
+    onclick="location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSc7q3TiYjIr2ymYEsr1EDnZ7MkweJoYecq4h4kIjuWKk3Ep5g/viewform?usp=sharing&ouid=114480387179070828857'" >Enquire Now</button>
+
     </div>
   </section>
   <!-- end book section -->
